@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputSelect component GIVEN a set of valid props WHEN the component is rendered THEN should display a regular Home 1`] = `
+<div>
+  <div>
+    <button
+      class="text-black border-2 border-black border-solid outline-none font-medium text-sm px-5 py-2.5 text-center inline-flex items-center"
+      data-dropdown-delay="500"
+      data-dropdown-toggle="dropdownDelay"
+      data-dropdown-trigger="hover"
+      data-testid="open"
+      id="dropdownDelayButton"
+      type="button"
+    >
+      Grid
+       
+      <svg
+        aria-hidden="true"
+        class="w-2.5 h-2.5 ml-2.5"
+        fill="none"
+        viewBox="0 0 10 6"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="m1 1 4 4 4-4"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+        />
+      </svg>
+    </button>
+    <div
+      class="z-10 bg-white divide-y divide-gray-100 border-2 border-black border-solid border-t-white shadow"
+      id="dropdownDelay"
+    >
+      <ul
+        aria-labelledby="dropdownDelayButton"
+        class="py-2 text-sm text-gray-700"
+      >
+        <li
+          class="block px-4 py-2 text-black cursor-pointer"
+          data-testid="list"
+        >
+          List
+        </li>
+        <li
+          class="block px-4 py-2 text-black cursor-pointer"
+          data-testid="grid"
+        >
+          Grid
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

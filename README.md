@@ -1,34 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a project developed with Next.Js
+## Run
 
-## Getting Started
+```bash
+json-server --watch db.json --port 3001
+```
 
-First, run the development server:
+Development environment:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Production environment:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build
+npm run start
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Tests:
 
-## Learn More
+```bash
+npm run test
+npx jest --coverage
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Libraries
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+For the development of this application the following libraries were used:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Redux (Sagas)
+- Axios
+- immer
+- json-server
+- jest
+- lint
 
-## Deploy on Vercel
+## Methodology
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Redux was implemented to manage the state of the application, when an action is executed and the saga is triggered and the data will be saved in the redux store
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Design patterns were implemented: composition, propagation and separation of container components and presentation components
+
+A HOC was implemented for the load indicator component, in addition, typescript was used with its respective data types
+
+The _app.tsx file was created to add a layout and handle the application as a SPA.

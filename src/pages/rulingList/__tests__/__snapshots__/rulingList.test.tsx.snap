@@ -1,0 +1,1047 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rulingList component GIVEN a set of valid props WHEN the component is rendered THEN should display a regular Home 1`] = `
+<div>
+  <div>
+    <div
+      class="flex justify-end items-baseline"
+    >
+      <div>
+        <button
+          class="text-black border-2 border-black border-solid outline-none font-medium text-sm px-5 py-2.5 text-center inline-flex items-center"
+          data-dropdown-delay="500"
+          data-dropdown-toggle="dropdownDelay"
+          data-dropdown-trigger="hover"
+          data-testid="open"
+          id="dropdownDelayButton"
+          type="button"
+        >
+          Grid
+           
+          <svg
+            aria-hidden="true"
+            class="w-2.5 h-2.5 ml-2.5"
+            fill="none"
+            viewBox="0 0 10 6"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m1 1 4 4 4-4"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+            />
+          </svg>
+        </button>
+        <div
+          class="z-10 bg-white divide-y divide-gray-100 border-2 border-black border-solid border-t-white shadow"
+          id="dropdownDelay"
+        >
+          <ul
+            aria-labelledby="dropdownDelayButton"
+            class="py-2 text-sm text-gray-700"
+          >
+            <li
+              class="block px-4 py-2 text-black cursor-pointer"
+              data-testid="list"
+            >
+              List
+            </li>
+            <li
+              class="block px-4 py-2 text-black cursor-pointer"
+              data-testid="grid"
+            >
+              Grid
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div
+      class="card-list"
+    >
+      <div
+        class="container-grid"
+      >
+        <img
+          alt="test"
+          class="image-grid"
+          data-nimg="1"
+          decoding="async"
+          height="0"
+          loading="lazy"
+          sizes="(min-width: 750px) 1440px, 100vw"
+          src="/_next/image?url=%2Fpope-francis.png&w=3840&q=75"
+          srcset="/_next/image?url=%2Fpope-francis.png&w=640&q=75 640w, /_next/image?url=%2Fpope-francis.png&w=750&q=75 750w, /_next/image?url=%2Fpope-francis.png&w=828&q=75 828w, /_next/image?url=%2Fpope-francis.png&w=1080&q=75 1080w, /_next/image?url=%2Fpope-francis.png&w=1200&q=75 1200w, /_next/image?url=%2Fpope-francis.png&w=1920&q=75 1920w, /_next/image?url=%2Fpope-francis.png&w=2048&q=75 2048w, /_next/image?url=%2Fpope-francis.png&w=3840&q=75 3840w"
+          style="color: transparent;"
+          width="0"
+        />
+        <div
+          class="section-grid z-20 w-full absolute h-28 items-center"
+        >
+          <div
+            class="content-grid"
+          >
+            <div
+              class="text-xl mb-2 cursor-pointer"
+            >
+              Pope Francis?
+            </div>
+            <p
+              class="ellipsis-grid"
+            >
+              He’s talking tough on clergy sexual abuse, or is he just another pervert protector? (thumbs down) or a true pedophile punishing pontiff? (thumbs up).
+            </p>
+          </div>
+          <div
+            class="vote-container-grid pr-6"
+          >
+            <div
+              class="text-end text-white mb-2"
+            >
+              1 month ago
+            </div>
+            <div
+              class="flex justify-end"
+            >
+              <button
+                aria-label="thumbs up"
+                class="icon-button !p-2 mr-4 "
+              >
+                <img
+                  alt="thumbs up"
+                  class="vote-icon-grid"
+                  data-nimg="1"
+                  decoding="async"
+                  height="0"
+                  loading="lazy"
+                  src="/thumbs-up.svg"
+                  style="color: transparent;"
+                  width="0"
+                />
+              </button>
+              <button
+                aria-label="thumbs down"
+                class="icon-button !p-2 mr-4 "
+              >
+                <img
+                  alt="thumbs down"
+                  class="vote-icon-grid"
+                  data-nimg="1"
+                  decoding="async"
+                  height="0"
+                  loading="lazy"
+                  src="/thumbs-down.svg"
+                  style="color: transparent;"
+                  width="0"
+                />
+              </button>
+              <button
+                aria-label="thumbs up"
+                class="vote-now-grid opacity-60 !cursor-auto"
+                disabled=""
+              >
+                Vote Now
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="opacity-grid bg-gradient-to-r from-neutral-600 from-1% via-neutral-800 via-50% to-neutral-600 to-99% relative z-10 opacity-60"
+        />
+        <div
+          class="card-buttons-grid"
+        >
+          <div
+            class="!ml-0 !mr-0 featured-card__buttons"
+          >
+            <div
+              aria-label="thumbs up"
+              class="icon-button items-center !opacity-100"
+            >
+              <img
+                alt="thumbs up"
+                class="card-image-grid"
+                data-nimg="1"
+                decoding="async"
+                height="0"
+                loading="lazy"
+                src="/thumbs-up.svg"
+                style="color: transparent;"
+                width="0"
+              />
+              <div
+                class="ml-1"
+              >
+                %
+              </div>
+            </div>
+            <div
+              aria-label="thumbs down"
+              class="icon-button items-center"
+            >
+              <img
+                alt="thumbs down"
+                class="card-image-grid"
+                data-nimg="1"
+                decoding="async"
+                height="0"
+                loading="lazy"
+                src="/thumbs-down.svg"
+                style="color: transparent;"
+                width="0"
+              />
+              <div
+                class="ml-1"
+              >
+                %
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="container-grid"
+      >
+        <img
+          alt="test"
+          class="image-grid"
+          data-nimg="1"
+          decoding="async"
+          height="0"
+          loading="lazy"
+          sizes="(min-width: 750px) 1440px, 100vw"
+          src="/_next/image?url=%2Fpope-francis.png&w=3840&q=75"
+          srcset="/_next/image?url=%2Fpope-francis.png&w=640&q=75 640w, /_next/image?url=%2Fpope-francis.png&w=750&q=75 750w, /_next/image?url=%2Fpope-francis.png&w=828&q=75 828w, /_next/image?url=%2Fpope-francis.png&w=1080&q=75 1080w, /_next/image?url=%2Fpope-francis.png&w=1200&q=75 1200w, /_next/image?url=%2Fpope-francis.png&w=1920&q=75 1920w, /_next/image?url=%2Fpope-francis.png&w=2048&q=75 2048w, /_next/image?url=%2Fpope-francis.png&w=3840&q=75 3840w"
+          style="color: transparent;"
+          width="0"
+        />
+        <div
+          class="section-grid z-20 w-full absolute h-28 items-center"
+        >
+          <div
+            class="content-grid"
+          >
+            <div
+              class="text-xl mb-2 cursor-pointer"
+            >
+              Kanye West
+            </div>
+            <p
+              class="ellipsis-grid"
+            >
+              Born in Atlanta and raised in Chicago, West was first known as a producer for Roc-A-Fella Records in the early 2000s, producing singles for several mainstream artists.
+            </p>
+          </div>
+          <div
+            class="vote-container-grid pr-6"
+          >
+            <div
+              class="text-end text-white mb-2"
+            >
+              1 month ago
+            </div>
+            <div
+              class="flex justify-end"
+            >
+              <button
+                aria-label="thumbs up"
+                class="icon-button !p-2 mr-4 "
+              >
+                <img
+                  alt="thumbs up"
+                  class="vote-icon-grid"
+                  data-nimg="1"
+                  decoding="async"
+                  height="0"
+                  loading="lazy"
+                  src="/thumbs-up.svg"
+                  style="color: transparent;"
+                  width="0"
+                />
+              </button>
+              <button
+                aria-label="thumbs down"
+                class="icon-button !p-2 mr-4 "
+              >
+                <img
+                  alt="thumbs down"
+                  class="vote-icon-grid"
+                  data-nimg="1"
+                  decoding="async"
+                  height="0"
+                  loading="lazy"
+                  src="/thumbs-down.svg"
+                  style="color: transparent;"
+                  width="0"
+                />
+              </button>
+              <button
+                aria-label="thumbs up"
+                class="vote-now-grid opacity-60 !cursor-auto"
+                disabled=""
+              >
+                Vote Now
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="opacity-grid bg-gradient-to-r from-neutral-600 from-1% via-neutral-800 via-50% to-neutral-600 to-99% relative z-10 opacity-60"
+        />
+        <div
+          class="card-buttons-grid"
+        >
+          <div
+            class="!ml-0 !mr-0 featured-card__buttons"
+          >
+            <div
+              aria-label="thumbs up"
+              class="icon-button items-center !opacity-100"
+            >
+              <img
+                alt="thumbs up"
+                class="card-image-grid"
+                data-nimg="1"
+                decoding="async"
+                height="0"
+                loading="lazy"
+                src="/thumbs-up.svg"
+                style="color: transparent;"
+                width="0"
+              />
+              <div
+                class="ml-1"
+              >
+                %
+              </div>
+            </div>
+            <div
+              aria-label="thumbs down"
+              class="icon-button items-center"
+            >
+              <img
+                alt="thumbs down"
+                class="card-image-grid"
+                data-nimg="1"
+                decoding="async"
+                height="0"
+                loading="lazy"
+                src="/thumbs-down.svg"
+                style="color: transparent;"
+                width="0"
+              />
+              <div
+                class="ml-1"
+              >
+                %
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="container-grid"
+      >
+        <img
+          alt="test"
+          class="image-grid"
+          data-nimg="1"
+          decoding="async"
+          height="0"
+          loading="lazy"
+          sizes="(min-width: 750px) 1440px, 100vw"
+          src="/_next/image?url=%2Fpope-francis.png&w=3840&q=75"
+          srcset="/_next/image?url=%2Fpope-francis.png&w=640&q=75 640w, /_next/image?url=%2Fpope-francis.png&w=750&q=75 750w, /_next/image?url=%2Fpope-francis.png&w=828&q=75 828w, /_next/image?url=%2Fpope-francis.png&w=1080&q=75 1080w, /_next/image?url=%2Fpope-francis.png&w=1200&q=75 1200w, /_next/image?url=%2Fpope-francis.png&w=1920&q=75 1920w, /_next/image?url=%2Fpope-francis.png&w=2048&q=75 2048w, /_next/image?url=%2Fpope-francis.png&w=3840&q=75 3840w"
+          style="color: transparent;"
+          width="0"
+        />
+        <div
+          class="section-grid z-20 w-full absolute h-28 items-center"
+        >
+          <div
+            class="content-grid"
+          >
+            <div
+              class="text-xl mb-2 cursor-pointer"
+            >
+              Mark Zuckerberg
+            </div>
+            <p
+              class="ellipsis-grid"
+            >
+              Born in White Plains, New York, Zuckerberg attended Harvard University, where he launched the Facebook social networking service from his dormitory room on February 4, 2004.
+            </p>
+          </div>
+          <div
+            class="vote-container-grid pr-6"
+          >
+            <div
+              class="text-end text-white mb-2"
+            >
+              1 month ago
+            </div>
+            <div
+              class="flex justify-end"
+            >
+              <button
+                aria-label="thumbs up"
+                class="icon-button !p-2 mr-4 "
+              >
+                <img
+                  alt="thumbs up"
+                  class="vote-icon-grid"
+                  data-nimg="1"
+                  decoding="async"
+                  height="0"
+                  loading="lazy"
+                  src="/thumbs-up.svg"
+                  style="color: transparent;"
+                  width="0"
+                />
+              </button>
+              <button
+                aria-label="thumbs down"
+                class="icon-button !p-2 mr-4 "
+              >
+                <img
+                  alt="thumbs down"
+                  class="vote-icon-grid"
+                  data-nimg="1"
+                  decoding="async"
+                  height="0"
+                  loading="lazy"
+                  src="/thumbs-down.svg"
+                  style="color: transparent;"
+                  width="0"
+                />
+              </button>
+              <button
+                aria-label="thumbs up"
+                class="vote-now-grid opacity-60 !cursor-auto"
+                disabled=""
+              >
+                Vote Now
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="opacity-grid bg-gradient-to-r from-neutral-600 from-1% via-neutral-800 via-50% to-neutral-600 to-99% relative z-10 opacity-60"
+        />
+        <div
+          class="card-buttons-grid"
+        >
+          <div
+            class="!ml-0 !mr-0 featured-card__buttons"
+          >
+            <div
+              aria-label="thumbs up"
+              class="icon-button items-center !opacity-100"
+            >
+              <img
+                alt="thumbs up"
+                class="card-image-grid"
+                data-nimg="1"
+                decoding="async"
+                height="0"
+                loading="lazy"
+                src="/thumbs-up.svg"
+                style="color: transparent;"
+                width="0"
+              />
+              <div
+                class="ml-1"
+              >
+                %
+              </div>
+            </div>
+            <div
+              aria-label="thumbs down"
+              class="icon-button items-center"
+            >
+              <img
+                alt="thumbs down"
+                class="card-image-grid"
+                data-nimg="1"
+                decoding="async"
+                height="0"
+                loading="lazy"
+                src="/thumbs-down.svg"
+                style="color: transparent;"
+                width="0"
+              />
+              <div
+                class="ml-1"
+              >
+                %
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="container-grid"
+      >
+        <img
+          alt="test"
+          class="image-grid"
+          data-nimg="1"
+          decoding="async"
+          height="0"
+          loading="lazy"
+          sizes="(min-width: 750px) 1440px, 100vw"
+          src="/_next/image?url=%2Fpope-francis.png&w=3840&q=75"
+          srcset="/_next/image?url=%2Fpope-francis.png&w=640&q=75 640w, /_next/image?url=%2Fpope-francis.png&w=750&q=75 750w, /_next/image?url=%2Fpope-francis.png&w=828&q=75 828w, /_next/image?url=%2Fpope-francis.png&w=1080&q=75 1080w, /_next/image?url=%2Fpope-francis.png&w=1200&q=75 1200w, /_next/image?url=%2Fpope-francis.png&w=1920&q=75 1920w, /_next/image?url=%2Fpope-francis.png&w=2048&q=75 2048w, /_next/image?url=%2Fpope-francis.png&w=3840&q=75 3840w"
+          style="color: transparent;"
+          width="0"
+        />
+        <div
+          class="section-grid z-20 w-full absolute h-28 items-center"
+        >
+          <div
+            class="content-grid"
+          >
+            <div
+              class="text-xl mb-2 cursor-pointer"
+            >
+              Cristina Fernández de Kirchner
+            </div>
+            <p
+              class="ellipsis-grid"
+            >
+              Her first term of office started with a conflict with the agricultural sector, and her proposed taxation system was rejected.
+            </p>
+          </div>
+          <div
+            class="vote-container-grid pr-6"
+          >
+            <div
+              class="text-end text-white mb-2"
+            >
+              1 month ago
+            </div>
+            <div
+              class="flex justify-end"
+            >
+              <button
+                aria-label="thumbs up"
+                class="icon-button !p-2 mr-4 "
+              >
+                <img
+                  alt="thumbs up"
+                  class="vote-icon-grid"
+                  data-nimg="1"
+                  decoding="async"
+                  height="0"
+                  loading="lazy"
+                  src="/thumbs-up.svg"
+                  style="color: transparent;"
+                  width="0"
+                />
+              </button>
+              <button
+                aria-label="thumbs down"
+                class="icon-button !p-2 mr-4 "
+              >
+                <img
+                  alt="thumbs down"
+                  class="vote-icon-grid"
+                  data-nimg="1"
+                  decoding="async"
+                  height="0"
+                  loading="lazy"
+                  src="/thumbs-down.svg"
+                  style="color: transparent;"
+                  width="0"
+                />
+              </button>
+              <button
+                aria-label="thumbs up"
+                class="vote-now-grid opacity-60 !cursor-auto"
+                disabled=""
+              >
+                Vote Now
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="opacity-grid bg-gradient-to-r from-neutral-600 from-1% via-neutral-800 via-50% to-neutral-600 to-99% relative z-10 opacity-60"
+        />
+        <div
+          class="card-buttons-grid"
+        >
+          <div
+            class="!ml-0 !mr-0 featured-card__buttons"
+          >
+            <div
+              aria-label="thumbs up"
+              class="icon-button items-center !opacity-100"
+            >
+              <img
+                alt="thumbs up"
+                class="card-image-grid"
+                data-nimg="1"
+                decoding="async"
+                height="0"
+                loading="lazy"
+                src="/thumbs-up.svg"
+                style="color: transparent;"
+                width="0"
+              />
+              <div
+                class="ml-1"
+              >
+                %
+              </div>
+            </div>
+            <div
+              aria-label="thumbs down"
+              class="icon-button items-center"
+            >
+              <img
+                alt="thumbs down"
+                class="card-image-grid"
+                data-nimg="1"
+                decoding="async"
+                height="0"
+                loading="lazy"
+                src="/thumbs-down.svg"
+                style="color: transparent;"
+                width="0"
+              />
+              <div
+                class="ml-1"
+              >
+                %
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="container-grid"
+      >
+        <img
+          alt="test"
+          class="image-grid"
+          data-nimg="1"
+          decoding="async"
+          height="0"
+          loading="lazy"
+          sizes="(min-width: 750px) 1440px, 100vw"
+          src="/_next/image?url=%2Fpope-francis.png&w=3840&q=75"
+          srcset="/_next/image?url=%2Fpope-francis.png&w=640&q=75 640w, /_next/image?url=%2Fpope-francis.png&w=750&q=75 750w, /_next/image?url=%2Fpope-francis.png&w=828&q=75 828w, /_next/image?url=%2Fpope-francis.png&w=1080&q=75 1080w, /_next/image?url=%2Fpope-francis.png&w=1200&q=75 1200w, /_next/image?url=%2Fpope-francis.png&w=1920&q=75 1920w, /_next/image?url=%2Fpope-francis.png&w=2048&q=75 2048w, /_next/image?url=%2Fpope-francis.png&w=3840&q=75 3840w"
+          style="color: transparent;"
+          width="0"
+        />
+        <div
+          class="section-grid z-20 w-full absolute h-28 items-center"
+        >
+          <div
+            class="content-grid"
+          >
+            <div
+              class="text-xl mb-2 cursor-pointer"
+            >
+              Malala Yousafzai
+            </div>
+            <p
+              class="ellipsis-grid"
+            >
+              The daughter of educational activist Ziauddin, Yousafzai was born to a Pashtun family in Mingora, Khyber Pakhtunkhwa, Pakistan. Her family came to run a chain of schools in the region.
+            </p>
+          </div>
+          <div
+            class="vote-container-grid pr-6"
+          >
+            <div
+              class="text-end text-white mb-2"
+            >
+              1 month ago
+            </div>
+            <div
+              class="flex justify-end"
+            >
+              <button
+                aria-label="thumbs up"
+                class="icon-button !p-2 mr-4 "
+              >
+                <img
+                  alt="thumbs up"
+                  class="vote-icon-grid"
+                  data-nimg="1"
+                  decoding="async"
+                  height="0"
+                  loading="lazy"
+                  src="/thumbs-up.svg"
+                  style="color: transparent;"
+                  width="0"
+                />
+              </button>
+              <button
+                aria-label="thumbs down"
+                class="icon-button !p-2 mr-4 "
+              >
+                <img
+                  alt="thumbs down"
+                  class="vote-icon-grid"
+                  data-nimg="1"
+                  decoding="async"
+                  height="0"
+                  loading="lazy"
+                  src="/thumbs-down.svg"
+                  style="color: transparent;"
+                  width="0"
+                />
+              </button>
+              <button
+                aria-label="thumbs up"
+                class="vote-now-grid opacity-60 !cursor-auto"
+                disabled=""
+              >
+                Vote Now
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="opacity-grid bg-gradient-to-r from-neutral-600 from-1% via-neutral-800 via-50% to-neutral-600 to-99% relative z-10 opacity-60"
+        />
+        <div
+          class="card-buttons-grid"
+        >
+          <div
+            class="!ml-0 !mr-0 featured-card__buttons"
+          >
+            <div
+              aria-label="thumbs up"
+              class="icon-button items-center !opacity-100"
+            >
+              <img
+                alt="thumbs up"
+                class="card-image-grid"
+                data-nimg="1"
+                decoding="async"
+                height="0"
+                loading="lazy"
+                src="/thumbs-up.svg"
+                style="color: transparent;"
+                width="0"
+              />
+              <div
+                class="ml-1"
+              >
+                %
+              </div>
+            </div>
+            <div
+              aria-label="thumbs down"
+              class="icon-button items-center"
+            >
+              <img
+                alt="thumbs down"
+                class="card-image-grid"
+                data-nimg="1"
+                decoding="async"
+                height="0"
+                loading="lazy"
+                src="/thumbs-down.svg"
+                style="color: transparent;"
+                width="0"
+              />
+              <div
+                class="ml-1"
+              >
+                %
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="container-grid"
+      >
+        <img
+          alt="test"
+          class="image-grid"
+          data-nimg="1"
+          decoding="async"
+          height="0"
+          loading="lazy"
+          sizes="(min-width: 750px) 1440px, 100vw"
+          src="/_next/image?url=%2Fpope-francis.png&w=3840&q=75"
+          srcset="/_next/image?url=%2Fpope-francis.png&w=640&q=75 640w, /_next/image?url=%2Fpope-francis.png&w=750&q=75 750w, /_next/image?url=%2Fpope-francis.png&w=828&q=75 828w, /_next/image?url=%2Fpope-francis.png&w=1080&q=75 1080w, /_next/image?url=%2Fpope-francis.png&w=1200&q=75 1200w, /_next/image?url=%2Fpope-francis.png&w=1920&q=75 1920w, /_next/image?url=%2Fpope-francis.png&w=2048&q=75 2048w, /_next/image?url=%2Fpope-francis.png&w=3840&q=75 3840w"
+          style="color: transparent;"
+          width="0"
+        />
+        <div
+          class="section-grid z-20 w-full absolute h-28 items-center"
+        >
+          <div
+            class="content-grid"
+          >
+            <div
+              class="text-xl mb-2 cursor-pointer"
+            >
+              Elon Musk
+            </div>
+            <p
+              class="ellipsis-grid"
+            >
+              In 2002, Musk founded SpaceX, an aerospace manufacturer and space transport services company, of which he is CEO, CTO, and lead designer.
+            </p>
+          </div>
+          <div
+            class="vote-container-grid pr-6"
+          >
+            <div
+              class="text-end text-white mb-2"
+            >
+              1 month ago
+            </div>
+            <div
+              class="flex justify-end"
+            >
+              <button
+                aria-label="thumbs up"
+                class="icon-button !p-2 mr-4 "
+              >
+                <img
+                  alt="thumbs up"
+                  class="vote-icon-grid"
+                  data-nimg="1"
+                  decoding="async"
+                  height="0"
+                  loading="lazy"
+                  src="/thumbs-up.svg"
+                  style="color: transparent;"
+                  width="0"
+                />
+              </button>
+              <button
+                aria-label="thumbs down"
+                class="icon-button !p-2 mr-4 "
+              >
+                <img
+                  alt="thumbs down"
+                  class="vote-icon-grid"
+                  data-nimg="1"
+                  decoding="async"
+                  height="0"
+                  loading="lazy"
+                  src="/thumbs-down.svg"
+                  style="color: transparent;"
+                  width="0"
+                />
+              </button>
+              <button
+                aria-label="thumbs up"
+                class="vote-now-grid opacity-60 !cursor-auto"
+                disabled=""
+              >
+                Vote Now
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="opacity-grid bg-gradient-to-r from-neutral-600 from-1% via-neutral-800 via-50% to-neutral-600 to-99% relative z-10 opacity-60"
+        />
+        <div
+          class="card-buttons-grid"
+        >
+          <div
+            class="!ml-0 !mr-0 featured-card__buttons"
+          >
+            <div
+              aria-label="thumbs up"
+              class="icon-button items-center !opacity-100"
+            >
+              <img
+                alt="thumbs up"
+                class="card-image-grid"
+                data-nimg="1"
+                decoding="async"
+                height="0"
+                loading="lazy"
+                src="/thumbs-up.svg"
+                style="color: transparent;"
+                width="0"
+              />
+              <div
+                class="ml-1"
+              >
+                %
+              </div>
+            </div>
+            <div
+              aria-label="thumbs down"
+              class="icon-button items-center"
+            >
+              <img
+                alt="thumbs down"
+                class="card-image-grid"
+                data-nimg="1"
+                decoding="async"
+                height="0"
+                loading="lazy"
+                src="/thumbs-down.svg"
+                style="color: transparent;"
+                width="0"
+              />
+              <div
+                class="ml-1"
+              >
+                %
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="container-grid"
+      >
+        <img
+          alt="test"
+          class="image-grid"
+          data-nimg="1"
+          decoding="async"
+          height="0"
+          loading="lazy"
+          sizes="(min-width: 750px) 1440px, 100vw"
+          src="/_next/image?url=%2Fpope-francis.png&w=3840&q=75"
+          srcset="/_next/image?url=%2Fpope-francis.png&w=640&q=75 640w, /_next/image?url=%2Fpope-francis.png&w=750&q=75 750w, /_next/image?url=%2Fpope-francis.png&w=828&q=75 828w, /_next/image?url=%2Fpope-francis.png&w=1080&q=75 1080w, /_next/image?url=%2Fpope-francis.png&w=1200&q=75 1200w, /_next/image?url=%2Fpope-francis.png&w=1920&q=75 1920w, /_next/image?url=%2Fpope-francis.png&w=2048&q=75 2048w, /_next/image?url=%2Fpope-francis.png&w=3840&q=75 3840w"
+          style="color: transparent;"
+          width="0"
+        />
+        <div
+          class="section-grid z-20 w-full absolute h-28 items-center"
+        >
+          <div
+            class="content-grid"
+          >
+            <div
+              class="text-xl mb-2 cursor-pointer"
+            >
+              Greta Thumberg
+            </div>
+            <p
+              class="ellipsis-grid"
+            >
+              Thunberg's activism started after convincing her parents to adopt several lifestyle choices to reduce their own carbon footprint.
+            </p>
+          </div>
+          <div
+            class="vote-container-grid pr-6"
+          >
+            <div
+              class="text-end text-white mb-2"
+            >
+              1 month ago
+            </div>
+            <div
+              class="flex justify-end"
+            >
+              <button
+                aria-label="thumbs up"
+                class="icon-button !p-2 mr-4 "
+              >
+                <img
+                  alt="thumbs up"
+                  class="vote-icon-grid"
+                  data-nimg="1"
+                  decoding="async"
+                  height="0"
+                  loading="lazy"
+                  src="/thumbs-up.svg"
+                  style="color: transparent;"
+                  width="0"
+                />
+              </button>
+              <button
+                aria-label="thumbs down"
+                class="icon-button !p-2 mr-4 "
+              >
+                <img
+                  alt="thumbs down"
+                  class="vote-icon-grid"
+                  data-nimg="1"
+                  decoding="async"
+                  height="0"
+                  loading="lazy"
+                  src="/thumbs-down.svg"
+                  style="color: transparent;"
+                  width="0"
+                />
+              </button>
+              <button
+                aria-label="thumbs up"
+                class="vote-now-grid opacity-60 !cursor-auto"
+                disabled=""
+              >
+                Vote Now
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="opacity-grid bg-gradient-to-r from-neutral-600 from-1% via-neutral-800 via-50% to-neutral-600 to-99% relative z-10 opacity-60"
+        />
+        <div
+          class="card-buttons-grid"
+        >
+          <div
+            class="!ml-0 !mr-0 featured-card__buttons"
+          >
+            <div
+              aria-label="thumbs up"
+              class="icon-button items-center !opacity-100"
+            >
+              <img
+                alt="thumbs up"
+                class="card-image-grid"
+                data-nimg="1"
+                decoding="async"
+                height="0"
+                loading="lazy"
+                src="/thumbs-up.svg"
+                style="color: transparent;"
+                width="0"
+              />
+              <div
+                class="ml-1"
+              >
+                %
+              </div>
+            </div>
+            <div
+              aria-label="thumbs down"
+              class="icon-button items-center"
+            >
+              <img
+                alt="thumbs down"
+                class="card-image-grid"
+                data-nimg="1"
+                decoding="async"
+                height="0"
+                loading="lazy"
+                src="/thumbs-down.svg"
+                style="color: transparent;"
+                width="0"
+              />
+              <div
+                class="ml-1"
+              >
+                %
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
